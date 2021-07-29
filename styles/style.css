@@ -1,0 +1,95 @@
+
+/*......
+ Header Section styles
+                    ........ */
+
+.header-section{
+    background-color: #264653;
+    
+}
+#header-1st-div{
+    padding-left:150px; 
+    padding-right: 150px;
+}
+h1{
+font-weight: 600px;
+}
+#modal-button{
+    background-color:#E76F51;
+}
+.modal-pera{
+    color:indigo;
+}
+/* ......
+     header sectin mediaquery 
+                        ..........*/
+
+@media only screen and (max-width:480px) {
+    #header-1st-div{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 10px;
+    }
+    .header-img{
+        width: 250px;
+        padding-top: 50px;
+    }
+    
+}
+
+ /* .........
+        Fetures Bike Section .............*/
+
+ span{
+     color: #E76F51;
+     font-weight: 600;
+ }
+ 
+ .gray-scale{
+    filter: grayscale(100%);
+ }
+
+ /* .........
+        Fetures Bike Section  mediaquery.............*/
+
+@media only screen and (max-width:480px) {
+    .fetures-img{
+        padding-top: 50px;
+    }
+    
+}
+
+/* ..........Happy Clients Section........ */
+
+.clients-img{
+    width: 150px;
+}
+
+.clients-pera{
+    width: 253px; 
+    line-height: 26px;
+
+}
+.clients-icon{
+    color:#E76F51;
+}
+
+.first-color{
+    color: #23A6F0;
+}
+.second-color{
+    color: #252B42;
+}
+
+
+/*....... FQA Section ..........*/
+
+.faq-img{
+    width: 430px;
+}
+
+
+.input-style{
+    width: 50%;
+}

@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-3 honda-cbr</title>
+    <title>Assignment-3_honda-cbr</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/64ba09743d.js" crossorigin="anonymous"></script>
     <!-- Bootstrap Style sheet -->
@@ -15,16 +17,16 @@
 
 <body>
     <header>
-        <section style="background-color:#264653;">
-            <div class="row align-items-center py-5 text-white" style="padding-left:150px; padding-right: 150px;">
+        <section class="header-section">
+            <div id="header-1st-div" class="row align-items-center py-5 text-white">
                 <div class="col-lg-6 col-12">
                     <p class="text-wrap fw-light">
                         Computer-controlled digital transistorized with electronic advance
                     </p>
-                    <h1 style="font-weight: 600px;">
+                    <h1>
                         Honda CBR 300R
                     </h1>
-                    <p class="text-wrap fw-light" style="width: 456px;">
+                    <p class="card-text fw-light header-p">
                         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
                         consequat
                         duis
@@ -32,7 +34,7 @@
                     </p>
                     <!-- Modal Button -->
                     <div>
-                        <button style="background-color:#E76F51" type="button" class="btn" data-bs-toggle="modal"
+                        <button id="modal-button" class="btn " type="button" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Purchase
                         </button>
@@ -48,7 +50,7 @@
                                             aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <p style="color:indigo;">
+                                        <p class="modal-pera">
                                             Buying a new bike is a big decision.
 
                                             With so many different types of bikes and brands available nowadays, all the
@@ -69,107 +71,113 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-12">
-                    <img style="width: 552px;" src="images/header-bike.png" alt="">
+                    <img class="header-img" src="images/header-bike.png" alt="">
                 </div>
             </div>
 
         </section>
     </header>
     <main>
-        <!-- Feztures Bike Section -->
+        <!-- Fetures Bike Section -->
         <section class="container">
             <div class=" text-center p-5">
                 <h1>Fetured Bikes 2021</h1>
-                <p class="text-bold" style="color:#E76F51;">Best bike collection</p>
+                <span class="text-bold">Best bike collection</span>
             </div>
             <div class="row p-5 justify-content-between ">
-                <div class="col-lg-4">
-                    <img style="width: 288px; filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
+                <div class="col-lg-4 fetures-img">
+                    <img class="img-fluid gray-scale" src="images/feature-bike.jpg" alt="">
                 </div>
-                <div class="col-lg-4">
-                    <img style="width: 288px;" src="images/feature-bike.jpg" alt="">
+                <div class="col-lg-4 fetures-img">
+                    <img class="img-fluid" src="images/feature-bike.jpg" alt="">
                 </div>
-                <div class="col-lg-4">
-                    <img style="width: 288px; filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
+                <div class="col-lg-4 fetures-img">
+                    <img class="img-fluid gray-scale" src="images/feature-bike.jpg" alt="">
                 </div>
             </div>
         </section>
         <!-- Happy Clients Section -->
         <section class="container p-5">
             <h1 class="p-5 text-center">
-                Happy <span style="color: #E76F51;">Clients says</span>
+                Happy <span>Clients says</span>
             </h1>
-            <div class="row">
+            <div class="row gy-5">
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                    <div><img style="width: 150px;" src="images/user-1.png" alt=""></div>
+                    <div>
+                        <img class="clients-img" src="images/user-1.png" alt="">
+                    </div>
                     <div class="card-body text-center">
-                        <p class="card-text fw-normal" style="width: 253px; line-height: 26px;">
+                        <p class="card-text fw-normal clients-pera">
                             Slate helps you see how
                             many more days you need
                             to work to reach your financial
                             goal for the month and year.
                         </p>
                     </div>
-                    <div class="d-flex pb-3">
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 far fa-star"></i>
+                    <div class="d-flex pb-3 clients-icon">
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 far fa-star"></i>
                     </div>
-                    <div>
-                        <h5 style="color: #23A6F0;">Regina Miles</h5>
+                    <div class="first-color">
+                        <h5>Regina Miles</h5>
                     </div>
-                    <div>
-                        <h5 style="color: #252B42;">Banker</h5>
+                    <div class="second-color">
+                        <h5">Banker</h5>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                    <div><img style="width: 150px;" src="images/user-2.png" alt=""></div>
+                    <div>
+                        <img class="clients-img" src="images/user-2.png" alt="">
+                    </div>
                     <div class="card-body text-center">
-                        <p class="card-text fw-normal" style="width: 253px; line-height: 26px;">
+                        <p class="card-text fw-normal clients-pera">
                             Slate helps you see how
                             many more days you need
                             to work to reach your financial
                             goal for the month and year.
                         </p>
                     </div>
-                    <div class="d-flex pb-3">
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 far fa-star"></i>
+                    <div class="d-flex pb-3 clients-icon">
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 far fa-star"></i>
                     </div>
-                    <div>
-                        <h5 style="color: #23A6F0;">Regina Miles</h5>
+                    <div class="first-color">
+                        <h5>Regina Miles</h5>
                     </div>
-                    <div>
-                        <h5 style="color: #252B42;">Banker</h5>
+                    <div class="second-color">
+                        <h5>Banker</h5>
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex flex-column justify-content-center align-items-center">
-                    <div><img style="width: 150px;" src="images/user-3.jpg" alt=""></div>
+                    <div>
+                        <img class="clients-img" src="images/crop-3.jpg" alt="">
+                    </div>
                     <div class="card-body text-center">
-                        <p class="card-text fw-normal" style="width: 253px; line-height: 26px;">
+                        <p class="card-text fw-normal clients-pera">
                             Slate helps you see how
                             many more days you need
                             to work to reach your financial
                             goal for the month and year.
                         </p>
                     </div>
-                    <div class="d-flex pb-3">
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 fas fa-star"></i>
-                        <i style="color:#E76F51;" class="px-1 far fa-star"></i>
+                    <div class="d-flex pb-3 clients-icon">
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 fas fa-star"></i>
+                        <i class="px-1 far fa-star"></i>
                     </div>
-                    <div>
-                        <h5 style="color: #23A6F0;">Regina Miles</h5>
+                    <div class="first-color">
+                        <h5>Regina Miles</h5>
                     </div>
-                    <div>
-                        <h5 style="color: #252B42;">Banker</h5>
+                    <div class="second-color">
+                        <h5>Banker</h5>
                     </div>
                 </div>
             </div>
@@ -177,11 +185,11 @@
         <!-- FQA Section -->
         <section class="container py-5">
             <h1 class="p-5 text-center">
-                Frequently Asked <span style="color: #E76F51;">Questions</span>
+                Frequently Asked <span>Questions</span>
             </h1>
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center gy-5">
                 <div class="col-lg-6 col-sm-12">
-                    <img style="width: 430px;" src="images/faq.png" alt="">
+                    <img class="img-fluid faq-img" src="images/faq.png" alt="">
                 </div>
                 <div class="col-lg-6 col-sm-12 accordion accordion-flush" id="accordionFlushExample">
                     <div class="accordion-item">
@@ -250,6 +258,44 @@
                                 would look in a real-world application.</div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!-- Extra Section-1 -->
+        <section class="container bg-secondary text-center">
+            <h2 class="py-3">Customer Feedback</h2>
+            <form>
+                <div class="d-flex flex-column  justify-content-center text-center">
+                    <div class="mb-3">
+                        <input type="email" class="input-style" placeholder="user email">
+                    </div>
+                    <div class="mb-3">
+                        <input type="password" class="input-style" placeholder="user password">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="input-style" id="" style="width: 50%;"
+                            placeholder="write your feedback"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- Extra Section-2 -->
+        <section class="container py-5 text-center">
+            <div class="row gy-5">
+                <div class="col-lg-4 col-12 shadow-sm">
+                    <h2>700k</h2>
+                    <small>youtube subscriber</small>
+                </div>
+                <div class="col-lg-4 col-12 shadow-sm">
+                    <h2>2.4m</h2>
+                    <small>Instagram follower</small>
+                </div>
+                <div class="col-lg-4 col-12 shadow-sm">
+                    <h2>200k</h2>
+                    <small>Dribble short Like</small>
                 </div>
             </div>
         </section>
