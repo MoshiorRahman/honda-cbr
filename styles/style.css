@@ -20,23 +20,7 @@ font-weight: 600px;
 .modal-pera{
     color:indigo;
 }
-/* ......
-     header sectin mediaquery 
-                        ..........*/
 
-@media only screen and (max-width:480px) {
-    #header-1st-div{
-        width: 100%;
-        padding-left: 0px;
-        padding-right: 0px;
-        padding: 10px;
-    }
-    .header-img{
-        width: 250px;
-        padding-top: 50px;
-    }
-    
-}
 
  /* .........
         Fetures Bike Section .............*/
@@ -50,15 +34,7 @@ font-weight: 600px;
     filter: grayscale(100%);
  }
 
- /* .........
-        Fetures Bike Section  mediaquery.............*/
-
-@media only screen and (max-width:480px) {
-    .fetures-img{
-        padding-top: 50px;
-    }
-    
-}
+ 
 
 /* ..........Happy Clients Section........ */
 
@@ -93,3 +69,29 @@ font-weight: 600px;
 .input-style{
     width: 50%;
 }
+
+/* ......header sectin mediaquery ..........*/
+
+@media only screen and (max-width:480px) {
+    #header-1st-div{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 10px;
+    }
+    .header-img{
+        width: 250px;
+        padding-top: 50px;
+    }
+    
+}
+
+/* .........Fetures Bike Section  mediaquery.............*/
+
+@media only screen and (max-width:480px) {
+    .fetures-img{
+        padding-top: 50px;
+    }
+    
+}
+
