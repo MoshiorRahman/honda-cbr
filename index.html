@@ -30,7 +30,43 @@
                         duis
                         enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
                     </p>
-                    <button style="background-color: #E76F51;" type="button" class="btn">Purchase</button>
+                    <!-- Modal Button -->
+                    <div>
+                        <button style="background-color:#E76F51" type="button" class="btn" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Purchase a Parfect Bike</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p style="color:indigo;">
+                                            Buying a new bike is a big decision.
+
+                                            With so many different types of bikes and brands available nowadays, all the
+                                            information can be overwhelming, leaving you feeling confused and unsure
+                                            where to start. Whether you want to buy a road, mountain, or hybrid bike,
+                                            we’ve created a list of the best bike brands so you can shop for your new
+                                            bike with confidence.
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 col-12">
                     <img style="width: 552px;" src="images/header-bike.png" alt="">
@@ -48,13 +84,13 @@
             </div>
             <div class="row p-5 justify-content-between ">
                 <div class="col-lg-4">
-                    <img style="width: 288px;" src="images/feature-bike.jpg" alt="">
+                    <img style="width: 288px; filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-lg-4">
                     <img style="width: 288px;" src="images/feature-bike.jpg" alt="">
                 </div>
                 <div class="col-lg-4">
-                    <img style="width: 288px;" src="images/feature-bike.jpg" alt="">
+                    <img style="width: 288px; filter: grayscale(100%);" src="images/feature-bike.jpg" alt="">
                 </div>
             </div>
         </section>
