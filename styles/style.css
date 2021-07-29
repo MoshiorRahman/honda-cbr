@@ -1,7 +1,5 @@
 
-/*......
- Header Section styles
-                    ........ */
+/*......Header Section styles........ */
 
 .header-section{
     background-color: #264653;
@@ -70,9 +68,11 @@ font-weight: 600px;
     width: 50%;
 }
 
-/* ......header sectin mediaquery ..........*/
 
-@media only screen and (max-width:480px) {
+
+/* ...... mediaquery ..........*/
+
+@media screen and (max-width:600px) {
     #header-1st-div{
         width: 100%;
         padding-left: 0px;
@@ -83,15 +83,13 @@ font-weight: 600px;
         width: 250px;
         padding-top: 50px;
     }
-    
-}
-
-/* .........Fetures Bike Section  mediaquery.............*/
-
-@media only screen and (max-width:480px) {
+    .header-img img{
+        width: 100%;
+    }
     .fetures-img{
         padding-top: 50px;
     }
-    
 }
+
+
 
