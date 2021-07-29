@@ -80,7 +80,7 @@ font-weight: 600px;
         padding: 10px;
     }
     .header-img{
-        width: 250px;
+        width: 100%;
         padding-top: 50px;
     }
     .header-img img{
